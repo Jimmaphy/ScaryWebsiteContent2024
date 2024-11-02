@@ -16,8 +16,31 @@
     </head>
 
     <body>
-        <canvas id="game"></canvas>
+        <main>
+            <!-- Introduction of the game. -->
+            <section>
+                <h1>HZ University of Spooky Horrors</h1>
+
+                <p>
+                    Welcome to HZ University of Spooky Horrors,
+                    a school haunted by something evil.
+                    Will you figure out the truth?
+                </p>
+            </section>
+
+            <!-- Information on cookies and start of the game. -->
+            <section>
+                <p>
+                    This game uses cookies to save your progress.
+                    By continuing to play, you agree to our use of cookies.
+                </p>
+
+                <button id="start-game">Accept Cookies and Start Game</button>
+            </section>
+        </main>
     </body>
 
-    <script src="./public/js/game.js"></script>
+    <script>let exports = {};</script>
+    <script type="module" src="./public/scripts/game.js"></script>
+    <script type="module" src="./public/scripts/index.js"></script>
 </html>

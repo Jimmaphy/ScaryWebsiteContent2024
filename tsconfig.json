@@ -4,15 +4,15 @@
     "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
 
     /* Language and Environment */
-    "target": "ESNext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "ES6",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
 
     /* Modules */
-    "module": "commonjs",                                /* Specify what module code is generated. */
+    "module": "ES6",                                /* Specify what module code is generated. */
     "rootDir": "./src/",                                 /* Specify the root folder within your source files. */
 
     /* Emit */
     "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
-    "outDir": "./src/public/js/",                        /* Specify an output folder for all emitted files. */
+    "outDir": "./src/public/",                        /* Specify an output folder for all emitted files. */
     "sourceRoot": "./src/",                                 /* Specify the root path for debuggers to find the reference source code. */
     "newLine": "crlf",                                /* Set the newline character for emitting files. */
     "noEmitOnError": true,                            /* Disable emitting files if any type checking errors are reported. */

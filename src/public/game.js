@@ -1,5 +1,5 @@
 "use strict";
 window.onload = () => {
-    console.log('Game loaded');
+    console.log('Game not loaded');
 };
 //# sourceMappingURL=game.js.map
